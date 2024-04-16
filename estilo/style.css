@@ -7,13 +7,12 @@
 }
 
 html, body {
-    width: 100vw;
-    height: 100vw;
+   
     background-color: black;
 }
 
 body {
-    background: url(../imagens/fundo-madeira.jpg) no-repeat center center;
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 
@@ -36,6 +35,14 @@ section#telefone {
     width: 311px;
     background-color: brown;
     background: url(../imagens/frame-iphone.png) no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
 }
     
     
